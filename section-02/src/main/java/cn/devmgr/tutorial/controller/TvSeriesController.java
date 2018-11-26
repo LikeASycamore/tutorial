@@ -96,7 +96,7 @@ public class TvSeriesController {
     }
     
     /**
-     * 删除资源的例子；如果方法圣母了HttpServletRequest request参数，spring会自动把当前的request传给方法。
+     * 删除资源的例子；如果方法声明了HttpServletRequest request参数，spring会自动把当前的request传给方法。
      * 类似声明即可得到还有 HttpServletResponse，Authentication、Locale等
      * 
      * @RequestParam(value="delete_reason", required=false) String deleteReason 表示deleteReason参数的值
